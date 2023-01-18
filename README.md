@@ -13,7 +13,7 @@
 
 1. I used the C programming language to find the shortest path using PRIMS, KRUSKALS and DIJKSTRAS algorithm as i have experience in doing a few algorithms in C and also have been using C language for some time for all coding.
 
-2. For this specific graph, my code for DIJKSTRAS and KRUSKALS works. The code for PRIMS does not give the complete output.
+2. Generally PRIMS, KRUSKALS and DIJKSTRAS algorithm don't work for negative weights also PRIMS and KRUSKALS algorithm does not work for directed graphs. But for this specific graph, my code for DIJKSTRAS, PRIMS and KRUSKALS works.
 
 
 ## Output
@@ -43,3 +43,11 @@
     Edge 4:(5 4) cost:1
     Edge 5:(0 5) cost:8
     Minimun cost=2
+    
+   ### Prim
+   
+    Edge 0:(0 5) cost:8
+    Edge 1:(5 4) cost:1
+    Edge 2:(4 1) cost:-4
+    Edge 3:(4 3) cost:-1
+    Edge 4:(3 2) cost:-2
